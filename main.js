@@ -29,8 +29,7 @@ proses.addEventListener('click', function () {
     hasil.value = hargaBukuIslami;
   }
 
-  // Kalo barang laptop di check maka akan dikali dengan jumlah barang yang di beli
-  let hargaBukuInformatika = 50000; // Harga awal Laptop, sudah kita tentukan
+  let hargaBukuInformatika = 50000;
   if (informatika.checked === true) {
     hargaBukuInformatika *= bukuInformatika.value;
     hasil.value = hargaBukuInformatika;
