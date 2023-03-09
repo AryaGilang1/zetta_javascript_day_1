@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PROGRAM PENJUALAN BARANG</title>
+    <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+    <marquee class="run-text">Selamat Datang di Toko Buku Momo</marquee>
+		<form name="form">
+			<table>
+				<tr>
+					<th colspan="2">PROGRAM PENJUALAN BARANG</th>
+				</tr>
+				<tr>
+					<th>NAMA BARANG</th>
+					<th>JUMLAH BELI</th>
+				</tr>
+				<tr>
+					<td>
+						<label> <input type="checkbox" class="islami" /> </label>Buku Islami
+					</td>
+					<td><input type="text" class="jumlahBukuIslami" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label> <input type="checkbox" class="informatika" /> </label>Buku Informatika
+					</td>
+					<td><input type="text" class="jumlahBukuInformatika" /></td>
+				</tr>
+				<tr>
+					<td>
+						<label> <input type="checkbox" class="cerita" /> </label>Buku Cerita
+					</td>
+          
+					<td><input type="text" class="jumlahBukuCerita" /></td>
+				</tr>
+					<td>
+						<label> TOTAL HARGA </label>
+					</td>
+					<td><input type="text" id="total" disabled /></td>
+				</tr>
+        
+        <tr>
+					<td>
+						<label>  </label>Tax 10%
+					</td>
+					<td><input type="text" id="tax" disabled/></td>
+				</tr>
+        <tr>
+					<td>
+						<label>  </label>DISKON
+					</td>
+					<td><input type="text" id="diskon" disabled/></td>
+				</tr>
+				 <tr>
+					<td>
+						<label>  </label>HARGA SETELAH DISKON
+					</td>
+					<td><input type="text" id="after-discount" disabled/></td>
+				</tr>
+				<tr>
+					<td>
+						<label>  </label>TOTAL BAYAR
+					</td>
+					<td><input type="text" id="total-harga" disabled/></td>
+				</tr>
+				<tr>
+					<td><input type="button" value="Proses" /></td>
+					<td><input type="reset" value="Reset" /></td>
+				</tr>
+			</table>
+		</form>
+
+		<div class="harga-buku">
+			<p>
+			Catatan: <br />
+			Harga 1 Buku Islami = 25000, <br />
+			Harga 1 Buku Informatika = 50000, <br />
+			Harga 1 Buku Cerita = 15000 <br>
+			Tax 10% dari total pembelian buku
+		</p>
+		</div>
+	</body>
+    <script src="main.js
+    "></script>
+
+</html>

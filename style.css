@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: pink;
+}
+
+table {
+  padding: 10px;
+  margin: 40px auto;
+  color: #333;
+  width: 550px;
+  border: 4px solid rgb(255, 225, 0);
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+th,
+td {
+  border: 2px solid #333;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 5px;
+}
+
+input[type='button'],
+input[type='reset'] {
+  padding: 5px 10px;
+  margin: auto;
+  display: block;
+}
+
+.harga-buku {
+  color: #fff;
+  width: 550px;
+  margin: auto;
+  font-weight: 700;
+}
+
+.run-text {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.tax-buku {
+  align-items: center;
+  justify-content: center;
+}
