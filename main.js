@@ -17,6 +17,7 @@ let totalHarga = document.querySelector('#total-harga')
 
 let tax = document.querySelector('#tax')
 
+
 const proses = document.querySelector('input[type="button"]');
 proses.addEventListener('click', function () {
   if (islami.checked === false && informatika.checked === false && cerita.checked === false) {
